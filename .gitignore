@@ -1,0 +1,12 @@
+**./.idea
+**./.iml
+**/target
+**/.classpath
+**/.project
+**/.settings
+**/.log
+**/.log.gz
+**/test-output
+**/reports/
+
+
