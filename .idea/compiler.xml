@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tau-fw" />
+        <module name="tau-utils" />
+        <module name="tau-selenium-adapter" />
+        <module name="tau-reporter" />
+        <module name="tau-unittest-helper" />
+        <module name="tau-cucumber-adapter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tau-aggregator" target="1.7" />
+      <module name="tau-cucumber-adapter" target="1.5" />
+      <module name="tau-fw" target="1.7" />
+      <module name="tau-parent" target="1.7" />
+      <module name="tau-reporter" target="1.7" />
+      <module name="tau-selenium-adapter" target="1.7" />
+      <module name="tau-testcase-design-adapter" target="1.7" />
+      <module name="tau-unittest-helper" target="1.7" />
+      <module name="tau-utils" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
