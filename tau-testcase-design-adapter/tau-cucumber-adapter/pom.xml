@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>bounty-parent</artifactId>
+        <artifactId>tau-parent</artifactId>
         <groupId>com.mgk.tau</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../tau-parent</relativePath>
@@ -31,12 +31,12 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
-            <version>6.5.0</version>
+            <version>5.7.0</version>
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-picocontainer</artifactId>
-            <version>6.5.0</version>
+            <version>6.9.1</version>
         </dependency>
         <dependency>
             <groupId>com.mgk.tau</groupId>

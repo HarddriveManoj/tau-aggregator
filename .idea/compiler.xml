@@ -16,7 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tau-aggregator" target="1.7" />
-      <module name="tau-cucumber-adapter" target="1.5" />
+      <module name="tau-cucumber-adapter" target="1.7" />
       <module name="tau-fw" target="8" />
       <module name="tau-parent" target="1.7" />
       <module name="tau-reporter" target="1.7" />

@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/tau-reporter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tau-selenium-adapter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tau-testcase-design-adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tau-testcase-design-adapter/tau-cucumber-adapter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tau-unittest-helper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tau-utils/src/main/java" charset="UTF-8" />
   </component>

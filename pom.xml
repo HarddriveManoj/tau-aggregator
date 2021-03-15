@@ -1,62 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.mgk.tau</groupId>
+    <groupId>com.mgk.tau</groupId>
 
-  <artifactId>tau-aggregator</artifactId>
+    <artifactId>tau-aggregator</artifactId>
 
-  <version>1.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
 
-  <name>tau-aggregator</name>
+    <name>tau-aggregator</name>
 
-  <developers>
-    <developer>
-      <name>Manoj Kolhe</name>
-      <email>manojgkolhe@gmail.com</email>
-      <url>https://github.com/HarddriveManoj</url>
-      <id>HarddriveManoj</id>
-    </developer>
-  </developers>
+    <developers>
+        <developer>
+            <name>Manoj Kolhe</name>
+            <email>manojgkolhe@gmail.com</email>
+            <url>https://github.com/HarddriveManoj</url>
+            <id>HarddriveManoj</id>
+        </developer>
+    </developers>
 
-  <!-- FIXME change it to the project's website -->
+    <!-- FIXME change it to the project's website -->
 
-  <url>http://www.example.com</url>
+    <url>http://www.example.com</url>
 
-  <packaging>pom</packaging>
+    <packaging>pom</packaging>
 
-  <properties>
+    <properties>
 
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.source>1.7</maven.compiler.source>
 
-    <maven.compiler.target>1.7</maven.compiler.target>
+        <maven.compiler.target>1.7</maven.compiler.target>
 
-  </properties>
-  <build>
+    </properties>
+    <build>
 
 
+    </build>
 
-  </build>
+    <modules>
 
-  <modules>
+        <module>tau-parent</module>
 
-    <module>tau-parent</module>
+        <module>tau-selenium-adapter</module>
 
-    <module>tau-selenium-adapter</module>
+        <module>tau-testcase-design-adapter</module>
 
-    <module>tau-testcase-design-adapter</module>
+        <module>tau-reporter</module>
 
-    <module>tau-reporter</module>
+        <module>tau-unittest-helper</module>
 
-    <module>tau-unittest-helper</module>
+        <module>tau-utils</module>
 
-    <module>tau-utils</module>
+        <module>tau-fw</module>
 
-    <module>tau-fw</module>
-
-  </modules>
-
+    </modules>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>INSPIRON-releases</name>
+            <url>http://localhost:8081/artifactory/libs-release</url>
+            <layout>legacy</layout>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>INSPIRON-snapshots</name>
+            <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+            <layout>legacy</layout>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
