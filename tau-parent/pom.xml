@@ -41,9 +41,9 @@
 
     <slf4j.version>1.7.13</slf4j.version>
 
-    <log4j.version>2.7</log4j.version>
+    <log4j.version>[2.13.2,)</log4j.version>
 
-    <junit.version>4.12</junit.version>
+    <junit.version>[4.13.1,)</junit.version>
 
     <testng.version>6.14.3</testng.version>
 
@@ -55,7 +55,7 @@
 
     <guice.version>4.2.3</guice.version>
 
-    <poi.version>3.13</poi.version>
+    <poi.version>[3.17,)</poi.version>
 
     <appium.java-client.version>4.1.2</appium.java-client.version>
 
@@ -425,7 +425,7 @@
 
       <artifactId>commons-collections</artifactId>
 
-      <version>3.2.1</version>
+      <version>[3.2.2,)</version>
 
     </dependency>
 
